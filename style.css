@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+}
+.header{
+    display:inline-block;
+    background-color: #010f20;
+    color: floralwhite;
+    padding: 1rem;
+    
+}
+.icon{
+    float: left;
+    background-color: #010f20;
+    color: floralwhite;
+}
+.nav{
+    float: right;
+    background-color: #010f20;
+    color: floralwhite;
+}
+.nav a:hover{
+    text-decoration: none;
+    color: rgb(76, 164, 247);
+    font-weight: bold;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.block > div
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.block{
+
+    text-align: center;
+    margin: 0px auto;
+    width: 40%;
+} 
+
+
+.prof{
+    margin:.5rem;
+    text-align: center;
+    border-radius: 30px;
+    width: 25%;
+    height: 350px;
+    background-color: rgb(226, 216, 216);
+}
+.prof:hover{
+    background-color: rgb(184, 184, 180);
+
+    padding: 1.5rem;
+    
+}
+.profile-pic{
+    
+    border-radius: 50%;
+    padding: 15px;
+    width: 100px;
+}
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.6;
+  }
+
+  .b2{
+    margin: .5rem;
+    text-align: center;
+    width: 45%;
+    height: 390px;
+    border-radius: 30px;
+    background-color: rgb(247, 241, 241);
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-y: auto;
+    
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.b2::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .b2 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .b2:hover{
+    background-color: rgb(219, 224, 243);
+    padding: 1.5rem;
+}
+ 
+  .edup{
+      text-align: left;
+      font-size: medium;
+  }
+  hr{
+      color: #e9e3e9;
+  }
+
+.contact{
+    text-align: left;
+    margin: .5rem;
+    background-color:#e9e7e9;
+    border-radius: 30px;
+    font-size: smaller;
+    padding: 1rem;
+}
+.contact:hover{
+    background-color: rgb(226, 226, 228);
+    padding: 1.5rem;
+}  
+
+.footer{
+    color: #b8b5b8;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #010f20;
+    height: 50px;
+    padding: 10px;
+}
