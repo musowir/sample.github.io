@@ -7,26 +7,29 @@
     <title>Profile</title>
     <link rel="shortcut icon" href="time.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="icon">
-                <h3 class="icon-txt">Abdu Musowir U</h3>
+    <div class="cont">
+        <div class="header col-md-12 col-12">
+            <div class="icon col-md-6 col-12">
+                
+                <p class="icon-txt"><img src="time.jpeg" alt="" width="70px" class="profile-pic">&nbsp;&nbsp;Abdu Musowir U</p>
 
             </div>
-            <div class="nav">
+            <div class="nav col-md-6 col-12 navbar">
                 <a href=""><b>Home</b></a>&nbsp;
                 <a href="">Blog</a>&nbsp;
-                <a href="">Above</a>&nbsp;
+                <a href="">About</a>&nbsp;
                 <a href="">Contact</a>&nbsp;&nbsp;&nbsp;
-                <input type="text" name="" id="" placeholder="search in this page...">&nbsp;&nbsp;<button>Search</button>
+                <div><input type="text" name="" id="" placeholder="search in this page...">&nbsp;&nbsp;<button class="btn btn-light">Search</button></div>
             </div>
         </div>
-        <div class="block">
-            <div class="prof">
-                <img src="time.jpeg" alt="" class="profile-pic">
+
+        <div class="block col-12">
+            <div class="prof col-md-4 col-12 col-lg-3">
+                <img src="time.jpeg" alt="" class="profile-pic" width= 150px>
                 <h3>Abdu Musowir U</h3>
                 <h4>Web Developer</h4>
                 <p>Location : Malappuram, Kerala<br>
@@ -37,24 +40,62 @@
                 <a href="#" class="fa fa-linkedin"></a>
             </p>
             </div>
-            <div class="b2">
-                    <h2>Education</h2>
+            <div class="b2 col-md-7 col-lg-5 col-12">
+                    <h2>Education</h2><br><br>
                     <P class=edup> 2018-2021 <br>
                     <b>Bsc Computer Science </b> <br>
-                    MES Ponnani College  <hr>
+                    MES Ponnani College  <br>
                     <P class=edup>2016-2018 <br>
                     <b>+2 Computer Science </b> <br>
-                    DUHSS Panakkad </P><hr>
+                    DUHSS Panakkad </P>
                     <P class=edup>2015-2016 <br>
                     <b>SSLC </b> <br>
                     MMET HSS Melmuri</P>
+                     <hr>
+                    <h2>Services</h2><br><br>
+                    <P class=edup> 
+                    Web Designing  <br>
+                    <P class=edup>Web development <br>
+                    <P class=edup>Content Creation <br>
+                    <P class=edup> Graphic Designing<hr>
+                    
+                    <h2>Skills</h2><br><br>
+                    <P class=edup> <button class="btn btn-light"> HTML</button>&numsp;
+                        <button class="btn btn-light">CSS</button>&numsp;
+                        <button class="btn btn-light">JS</button>&numsp;
+                        <button class="btn btn-light">jquery</button>&numsp;</P>
+                        <P class=edup><button class="btn btn-light">React.js</button>&numsp;
+                        <button class="btn btn-light">Angular.js</button>&numsp;
+                        <button class="btn btn-light">Express</button>&numsp;
+                        <button class="btn btn-light">Node.js</button>&numsp;</P>
+                        <P class=edup> <button class="btn btn-light">MongoDB</button>&numsp;
+                        <button class="btn btn-light">Python</button>&numsp;
+                        <button class="btn btn-light">Django</button>&numsp;
+                        <button class="btn btn-light">SQL</button>&numsp; </P>
                
             </div>
-            
+            <div class="contact col-lg-3 col-12">
+                <h2>Connect</h2>
+                <form action="">
+                <label for="name">Full name: </label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your full name"><br>
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your Mail id"> <br>
+                <label for="msg">Message: </label><br>
+                <textarea name="msg" id="msg" cols="20" rows="4" placeholder="Start typing your message"></textarea><br>
+                <br><button class="btn btn-primary" type="submit">Send</button>&numsp;<button class="btn btn-info" type="reset">Clear</button>
+            </form>
+            </div>
         </div>
-        <div class="footer">
+        <div class="footer col-12">
             &copy;Abdu Musowir U
         </div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 </body>
 </html>
